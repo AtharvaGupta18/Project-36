@@ -7,12 +7,29 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
       <script src="p5.play.js"></script>
+      <script sec="p5.js"></script>
 
-      
-      <!--Your web app's Firebase configuration
-         Add here
-        Initialize Firebase-->
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBJwjMlquP58fNJ-n8DOo-FUX101FIvgp0",
+    authDomain: "project-34-d6f63.firebaseapp.com",
+    databaseURL: "https://project-34-d6f63.firebaseio.com",
+    projectId: "project-34-d6f63",
+    storageBucket: "project-34-d6f63.appspot.com",
+    messagingSenderId: "584061488575",
+    appId: "1:584061488575:web:c55ca3ddb28c4387bd650a"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
       <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
     <body>
